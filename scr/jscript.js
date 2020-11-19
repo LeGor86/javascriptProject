@@ -27,4 +27,18 @@ for(var i in people){
 var people = ["Tom", "Bob", "Sam"];
 for (var i of people)
     console.log(i);
+
+var people = ["Tom", "Alice", "Bob", "Sam", 'Hardy', 'huyardy'];
+var i = 0;
+while(i < people.length){
+    console.log(people[i]);
+    i++;
+}
 */
+var x = 1;
+do{
+    console.log(x * x);
+    x++;
+}while(x < 10)
+
+
