@@ -5,7 +5,7 @@ console.log(let);
 if (let >= 18 && let <= 25)
     alert('Ты можеш учавствовать');
 
-else if (!isNaN(let))
+else if (isNaN(let))
     alert('Некорректное значение, введи заново');
 
 else if (let == null || let == 0)
